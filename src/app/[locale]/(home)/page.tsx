@@ -26,7 +26,7 @@ const getStanding = async (id: number) => {
   // const yearData = yearJSON?.response[0]?.seasons?.at(-1)?.year;
 
   const response = await fetch(
-    `${FOOTBALL_URL}/standings?league=${id}&season=2024`,
+    `${FOOTBALL_URL}/standings?league=${id}&season=2025`,
     {
       method: "GET",
       headers: {
